@@ -1,0 +1,42 @@
+.bg-primary {
+    background-color: #1abc9c;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#rolunk-felirat{
+    font-size: 42px;
+    border: 1px white;
+    text-align: center;
+    padding: 10px;
+}
+
+#logo {
+    padding: 0;
+    margin: 0 auto;
+}
+
+#mainlogo {
+    width: 40%;
+}
+
+#head1 {
+    height: 100vh;
+}
+
+#profilkep {
+    width: 30vh;
+    border-radius: 70%;
+}
+
+.leiras {
+    vertical-align: middle;
+}
+
+.szolgaltatasok-item {
+    margin-top: 5%;
+}

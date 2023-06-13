@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Lelovics Tamás weboldala" />
+    <meta name="author" content="Lelovics Tamás" />
+    <!-- Ikonkészlet -->
+    <script src="assets/fa-all.js"></script>
+    <link rel="Icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <!-- Bootrsap CSS -->
+    <link href="assets/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="lelovics.css">
+    <title>Lelovics Design.</title>
+</head>
+
+<body id="page-top">
+    <!-- Navigáció -->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Lelovics Design.</a>
+            <button
+                class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+                type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menü
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#szolgaltatasok" class="nav-link rounded js-scroll-trigger">Szolgáltatások</a></li>
+                    <li class="nav-item"><a href="#rolunk" class="nav-link rounded js-scroll-trigger">Rólam</a></li>
+                    <li class="nav-item"><a href="#kapcsolat" class="nav-link rounded js-scroll-trigger">Kapcsolat</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Fejléc -->
+    <header class="masthead bg-primary text-white text-center" id="head1">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5" src="assets/img/logo.png" id="mainlogo" alt="Logó" />
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0">Weboldal készítés, programozás</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">Legjobbat a legjobbaknak!</p>
+        </div>
+    </header>
+
+
+    <!-- Szolgaltatások -->
+    <section class="page-section szolgaltatasok" id="szolgaltatasok">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary">Szolgáltatásaim</h2>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Szolgaltatáselemek -->
+            <div class="row">
+                <div class="szolgaltatasok-item mx-auto col-md-12" data-toggle="modal" data-target="#szolgaltatasokModal1">
+                    <div class="szolgaltatasok-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="szolgaltatasok-item-caption-content text-center text-white"><i
+                                class="fas fa-plus fa-3x"></i></div>
+                    </div>
+                    <img class="img-fluid" src="kepek/kod.jpg" alt="Web development" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rólunk -->
+    <section class="page-section bg-primary text-white mb-0" id="rolunk">
+        <div class="container">
+            <h2 id="rolunk-felirat">RÓLAM</h2>
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mr-auto">
+                    <img src="kepek/prof.jpg" id="profilkep" class="center" alt="Lelovics Tamas">
+                </div>
+                    <div class="col-lg-6 ml-auto" style="margin-top: 10%;">
+                        <p><strong>Lelovics Tamás</strong>nak hívnak, 18 éves tanuló vagyok. Jelenleg a veszprémi Ipari Technikum diákjaként róvom a padot. Tanulmányaimat 2019-ben kezdtem szoftverfejlesztői szakon. Immáron 4 éve foglalkozom konzolos alkalmazások programozásával
+                            és weboldal design, illetve programozással. Célom hogy minden jövendőbeli kliensemnek megfelelő alkalmazást vagy weboldalt adjak ki a kezeim közül. </p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kapcsolat -->
+    <section class="page-section" id="kapcsolat">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Kapcsolat</h2>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <p class="lead ">Kérem, töltse ki az alábbi információs lapot, és hamarosan felveszem
+                Önnel a kapcsolatot.</p>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form id="contactForm" name="sentMessage">
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <input class="form-control" id="name" type="text" placeholder="Név" />
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <input class="form-control" id="email" type="text" placeholder="E-mail cím" />
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <input class="form-control" id="phone" type="text" placeholder="Telefonszám" />
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <textarea class="form-control" id="message" rows="2"
+                                    placeholder="Milyen szolgáltatást szeretne igénybe venni?"></textarea>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <button class="btn btn-primary btn-xl" id="sendMessageButton" type="button"
+                                onclick="velemenyKuldes()">Üzenet küldése
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lábléc -->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Egyéb elérhetőségeim:</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/lelovics.tamas.7/"><i
+                            class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/lelovics.tamas/"><i
+                            class="fab fa-fw fa-instagram"></i></a>
+                </div>
+
+                <div class="col-lg-8">
+                    <h4 class="text-uppercase mb-4">Tudta?</h4>
+                    <p class="lead mb-0 text-left">
+                        Az interneten napjainkban több mint 1,7 <strong>BILLIÓ</strong> weboldal van. Bár ezen weboldalaknak csupán csak a 10%-a aktív.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copyright -->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Lelovics Tamás ©2023</small></div>
+    </div>
+
+    <div class="scroll-to-top d-lg-none position-fixed">
+        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
+                class="fa fa-chevron-up"></i></a>
+    </div>
+
+    <!-- Szolgáltatások felugró kártyái -->
+
+
+
+
+
+    
+    <!--webdesign felugró kártya -->
+    <div class="szolgaltatasok-modal modal fade" id="szolgaltatasokModal1" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+
+                                <h2 class="szolgaltatasok-modal-title text-secondary text-uppercase text-center mb-0">
+                                    Weboldal fejlesztés
+                                </h2>
+
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+
+                                <div class="row justify-content-center">
+                                    <img class="img-fluid rounded mb-5" src="" />
+                                </div>
+
+                                <p>Reszponzív kiakalítású weboldaltervezés és fejlesztés. Egyszerű weboldaltól egészen webshopok fejlesztéséig nyújtok szolgáltatást.</p>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Bezárás
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- felugró kártya
+    <div class="szolgaltatasok-modal modal fade" id="szolgaltatasokModal2" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+
+                                <h2 class="szolgaltatasok-modal-title text-secondary text-uppercase text-center mb-0">
+                                    Beléptetés
+                                </h2>
+
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+
+                                <div class="row justify-content-center">
+                                    <img class="img-fluid rounded mb-5" src="assets/img/modals/rfid.jpg"
+                                        alt="RFID olvasó rendszer" />
+                                </div>
+
+                                <p>A beléptetés automatizált sorompórendszer segítségével történik, melyet egy RFID
+                                    kártyával, az érzékelőhöz való érintéssel nyithat és zárhat a regisztrált jármű
+                                    tulajdonosa.</p>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Bezár
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="szolgaltatasok-modal modal fade" id="szolgaltatasokModal3" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+
+                                <h2 class="szolgaltatasok-modal-title text-secondary text-uppercase text-center mb-0">
+                                    Mobilalkalmazás
+                                </h2>
+
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+
+                                <div class="row justify-content-center">
+                                    <img class="img-fluid rounded mb-5" src="assets/img/modals/application.jpg"
+                                        alt="Mobilalkalmazás" />
+                                </div>
+
+                                <p>Parkolóházunkba már mobilalkalmazás segítségével is regisztrálhat. Az applikációval könnyedén azonosíthatja magát a beléptető kapuknál. Az alkalmazás ezen felül segít Önnek elnavigálni a kijelölt parkolóhelyhez is.</p>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Bezár
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+    <!-- Bootstrap, és függőségei -->
+    <script src="assets/jquery.min.js"></script>
+    <script src="assets/bootstrap.bundle.min.js"></script>
+    <script src="assets/jquery.easing.min.js"></script>
+
+    <!-- Téma-specifikus szkriptek -->
+    <script src="assets/scripts.js"></script>
+    <script src="lelovics.js"></script>
+</body>
+
+</html>
